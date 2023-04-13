@@ -57,33 +57,13 @@ function displayQuestions(items) {
 
 faq = [
   {
-    ques: 'What is a TEDx event?',
-    answer:
-      'A TEDx event is a locally organized conference that follows the format of TED Talks and is licensed by TED. It features a range of speakers who deliver short, powerful talks on a variety of topics. ',
-  },
-  {
-    ques: 'How many speakers would be attending the event?',
-    answer: '8 speakers would grace the event. ',
-  },
-  {
     ques: `What is TEDxNSUT?`,
     answer: `One of the earliest TEDx events to be held in the Delhi Circuit was TEDxNSUT (formerly known as TEDxNSIT). It has always been a thrilling occasion where renowned speakers like Rohit Sardana, Hima Das, Surendra Mehra, IFS, etc. have taken the platform.
 "`,
   },
-
   {
     ques: 'Is the TEDxNSUT event free to attend for all?',
     answer: 'TEDxNSUT Event is  completely free of cost.',
-  },
-  {
-    ques: 'Where can I find the list of speakers?',
-    answer:
-      'The list of speakers can be found on all our social media platforms.',
-  },
-  {
-    ques: 'What sets the TEDxNSUT apart from the other TEDx Events?',
-    answer:
-      'As being the oldest event organiser of TEDx , we have the experience of hosting many renowned speakers every year. Even COVID was unable to break our streak .',
   },
   {
     ques: 'What is the process for selecting speakers for TEDx events?',
@@ -111,10 +91,6 @@ faq = [
 3. Volunteer for future TEDxNSUT events to remain involved in the community and contribute to its growth.`,
   },
   {
-    ques: 'Are there any possibilities to connect with the speakers?',
-    answer: 'Yes, TEDx events often provide opportunities for networking.',
-  },
-  {
     ques: `Are there any age restrictions for attending a TEDx event?`,
     answer: `Sure, you must be old enough to appreciate mind-blowing talks and innovative ideas! But in all seriousness, there are typically no age restrictions for attending a TEDx event, so everyone is welcome to join in on the fun and be inspired.`,
   },
@@ -129,9 +105,5 @@ faq = [
   {
     ques: `I am not a student of NSUT, can I attend the event?`,
     answer: `YES!!!`,
-  },
-  {
-    ques: `For any chaos free entry what should be my reporting time `,
-    answer: `No , TEDx is destined to bring change in society and we choose speakers on the basis of what they can reflect to society `,
   },
 ];
