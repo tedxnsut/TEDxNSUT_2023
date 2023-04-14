@@ -58,8 +58,7 @@ function displayQuestions(items) {
 faq = [
   {
     ques: `What is TEDxNSUT?`,
-    answer: `One of the earliest TEDx events to be held in the Delhi Circuit was TEDxNSUT (formerly known as TEDxNSIT). It has always been a thrilling occasion where renowned speakers like Rohit Sardana, Hima Das, Surendra Mehra, IFS, etc. have taken the platform.
-"`,
+    answer: `One of the earliest TEDx events to be held in the Delhi Circuit was TEDxNSUT (formerly known as TEDxNSIT). It has always been a thrilling occasion where renowned speakers like Rohit Sardana, Hima Das, Surendra Mehra, IFS, etc. have taken the platform.`,
   },
   {
     ques: 'Is the TEDxNSUT event free to attend for all?',
