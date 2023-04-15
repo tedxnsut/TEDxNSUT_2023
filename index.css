@@ -85,6 +85,11 @@ canvas {
   color: rgb(255, 255, 255);
 }
 
+.container:hover .image {
+  opacity: 0.3;
+  transform: scale(1.5);
+}
+
 .image {
   height: 100%;
 }
@@ -110,15 +115,17 @@ canvas {
   color: white;
   font-size: 12px;
   position: absolute;
-  top: 10%;
+  top: 3%;
   left: 10%;
   right: 5%;
   justify-content: center;
+  padding: 5%;
   /* -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     white-space: nowrap;  */
 }
+
 .text_heading {
   align-content: center;
   color: white;
@@ -130,6 +137,17 @@ canvas {
   justify-content: center;
 }
 
+.img-text{
+  align-content: center;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  padding: 5%;
+  top: 3%;
+  left: 10%;
+  right: 5%;
+  justify-content: center;
+}
 /* past speakers */
 /* past speakers */
 
@@ -181,14 +199,14 @@ h1 {
   font-size: 60px;
 }
 
-#clockdiv > div {
+#clockdiv>div {
   padding: 10px;
   border-radius: 3px;
   background: #000000;
   display: inline-block;
 }
 
-#clockdiv div > span {
+#clockdiv div>span {
   padding: 40px;
   /* 	border-radius: 3px; */
   background: #ec2b08;
@@ -207,7 +225,7 @@ h1 {
     font-size: 11px;
   }
 
-  #clockdiv div > span {
+  #clockdiv div>span {
     padding: 20px;
   }
 }
@@ -216,9 +234,11 @@ h1 {
   #logo {
     padding-top: 140px;
   }
+
   #part1 {
     height: 265px;
   }
+
   .header {
     display: none;
   }
@@ -244,6 +264,7 @@ h1 {
 .change {
   border: 3px solid black;
 }
+
 footer {
   background-color: black;
   padding: 0mm;
@@ -252,12 +273,15 @@ footer {
 .Place {
   padding-bottom: 2%;
 }
+
 .icon {
   color: #ec2b08;
 }
+
 .icon:hover {
   color: white;
 }
+
 .socials {
   list-style: none;
   display: flex;
@@ -269,10 +293,12 @@ footer {
   margin: 0 10px;
   color: #ec2b08;
 }
+
 h4 {
   margin-top: 10px;
   color: white;
 }
+
 p {
   color: rgb(143, 141, 146);
   text-align: justify;
@@ -282,19 +308,29 @@ p {
 .copyright_footer {
   background-color: #000000;
 }
+
 .form {
   height: 100vh;
   background-color: white;
   flex-grow: 1;
 }
+
 .form_left {
   /* background: url("./assets/img/IMG_20191013_102851.jpg"); */
   background: url("./assets/img/back.png");
   background-position: center;
   background-size: cover;
 }
-.form_right {
-}
+
+.form_right {}
+
 #formm {
   height: 100px;
+}
+.image-content {
+  display: none;
+}
+
+.show {
+  display: block;
 }
