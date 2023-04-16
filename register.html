@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TEDxNSUT Event Registration</title>
+    <link rel="stylesheet" type="text/css" href="styles4.css">
+</head>
+
+<body>
+    <div class="container glow-border">
+        <h1>Register for <span style="color: red;">TEDx</span>NSUT</h1>
+        <form action="#" method="post">
+            <label for="name" class="underline-hover-effect">Full Name:</label>
+            <input type="text" class="underline-hover-effect" id="name" name="name" required >
+            
+            <label for="phone" class="underline-hover-effect">Contact Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="email" class="underline-hover-effect">Email ID:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="college" class="underline-hover-effect">College Name/Workspace:</label>
+            <input type="text" id="college" name="college" required>
+
+            <label for="why" class="underline-hover-effect">Why do you wish to attend the event?</label>
+            <textarea id="why" name="why" rows="5"></textarea>
+
+            <label for="ted" ><p class="underline-hover-effect">Name at least 3 TED/TEDx Talks that inspired you recently, also mention the reasons for the
+                same:</p></label>
+            <textarea id="ted" name="ted" rows="5"></textarea>
+
+            <label for="speaker" class="underline-hover-effect">Whose talk(s) are you looking forward to?</label>
+            <div class="checkbox-grid">
+                <div>
+                    <label><input type="checkbox" name="option1"> Option 1</label>
+                    <label><input type="checkbox" name="option2"> Option 2</label>
+                    <label><input type="checkbox" name="option3"> Option 3</label>
+                    <label><input type="checkbox" name="option4"> Option 4</label>
+                    <label><input type="checkbox" name="option5"> Option 5</label>
+                    <label><input type="checkbox" name="option6"> Option 6</label>
+                    <label><input type="checkbox" name="option7"> Option 7</label>
+                    <label><input type="checkbox" name="option8"> Option 8</label>
+                </div>
+                </div>
+            <label for="how" class="underline-hover-effect">How did you come to know about the event?</label>
+            <select id="how" name="how" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="Social Media">Social Media</option>
+                <option value="Friends">Friends</option>
+                <option value="Classmates">Classmates</option>
+                <option value="Organising Team">Organising Team</option>
+            </select>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+
+</html>
