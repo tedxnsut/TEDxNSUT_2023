@@ -148,6 +148,10 @@ canvas {
   right: 5%;
   justify-content: center;
 }
+
+.info_box {
+  text-align: start;
+}
 /* past speakers */
 /* past speakers */
 
