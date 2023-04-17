@@ -113,9 +113,9 @@ canvas {
 .text {
   align-content: center;
   color: white;
-  font-size: 12px;
+  font-size: 11px;
   position: absolute;
-  top: 3%;
+  top: 2%;
   left: 10%;
   right: 5%;
   justify-content: center;
@@ -140,10 +140,10 @@ canvas {
 .img-text{
   align-content: center;
   color: white;
-  font-size: 12px;
+  font-size: 11px;
   position: absolute;
   padding: 5%;
-  top: 3%;
+  top: 2%;
   left: 10%;
   right: 5%;
   justify-content: center;
