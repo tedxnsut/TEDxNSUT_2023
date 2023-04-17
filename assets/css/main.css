@@ -2510,7 +2510,7 @@ Cover
   color: #ffffff;
 }
 
-.register-button{
+.buttons{
   transition-duration: 0.4s;
   background-color: #18181c; 
   border: none;
@@ -2524,7 +2524,7 @@ Cover
 
 }
 
-.register-button:hover{
+.buttons:hover{
   cursor:pointer;
    background-color: #ec2b08;
 }
